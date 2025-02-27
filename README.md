@@ -118,8 +118,13 @@ After deployment, Terraform will output the EC2 instance's public IP:
 ```bash
 terraform output instance_ip
 ```
-Use this IP to access the deployed application in a browser.
+To access the endpoints of the todo app:
+- **Login:** https://todoapphng.duckdns.org
+- **Auth API:** https://todoapphng.duckdns.org/api/auth
+- **Todos API:** https://todoapphng.duckdns.org/api/todos
+- **User API:** https://todoapphng.duckdns.org/api/users
 
 ---
 
 This setup provides an automated, reproducible deployment process for the TODO application using Terraform and Ansible on AWS.
+
