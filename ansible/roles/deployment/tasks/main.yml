@@ -17,7 +17,7 @@
 - name: setup ssl cert
   become: true
   shell: |
-    curl "https://www.duckdns.org/update?domains=banmtodoapp.duckdns.org&token=8109b11a-af70-44dc-b256-cee0b260579a&ip={{ ansible_host }}"
+    curl "https://www.duckdns.org/update?domains=todoapphng.duckdns.org&token=8109b11a-af70-44dc-b256-cee0b260579a&ip={{ ansible_host }}"
     
 - name: Create docker network
   become: true
